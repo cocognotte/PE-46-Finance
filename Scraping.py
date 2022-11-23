@@ -14,6 +14,8 @@ url='https://www.boursorama.com/bourse/indices/cours/1rPCAC/'
 
 page=urllib.request.urlopen(url,timeout=5)
 
-soup=bs(page,features="lxml")         
+soup=bs(page,features="lxml")
 
 soup
+
+#test
