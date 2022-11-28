@@ -35,7 +35,7 @@ def span_convert(bs):
     else:
         return a
 
-L = [[]]
+L = []
 c = 0
 
 for item in page.find("table" , {'data-test' : "historical-prices"}).findAll('span')[7:-3]:
@@ -46,5 +46,4 @@ for item in page.find("table" , {'data-test' : "historical-prices"}).findAll('sp
     c += 1
     
 print(L)
-
 
