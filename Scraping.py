@@ -16,7 +16,8 @@ import requests
 import bs4
 import urllib.request
 
-url = 'https://fr.finance.yahoo.com/quote/%5EDJI/history?p=%5EDJI'
+#url = 'https://fr.finance.yahoo.com/quote/%5EDJI/history?p=%5EDJI'
+url = 'https://fr.finance.yahoo.com/quote/%5EDJI/history?period1=1511827200&period2=1669593600&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true'
 
 request = requests.get(url, headers = {'User-Agent':'Mozilla/.0'})
 
