@@ -47,4 +47,3 @@ for item in page.find("table" , {'data-test' : "historical-prices"}).findAll('sp
     c += 1
     
 print(L)
-
